@@ -22,5 +22,5 @@ allprojects {
 }
 
 tasks.register("clean", Delete::class){
-    delete(rootProject.rootDir)
+    delete(rootProject.buildDir)
 }

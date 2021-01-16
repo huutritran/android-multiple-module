@@ -39,9 +39,9 @@ class SplashFragment : Fragment(R.layout.fragment_splash) {
              }
          }
         Log.d(TAG, "onActivityCreated: "+ fakeService)
-        GlobalScope.launch {
-           val response = fakeService.login(LoginRequest("nilson@email.com","nilson"))
-            Log.d(TAG, "GlobalScope.launch : "+ response)
-        }
+//        GlobalScope.launch {
+//           val response = fakeService.login(LoginRequest("nilson@email.com","nilson"))
+//            Log.d(TAG, "GlobalScope.launch : "+ response)
+//        }
     }
 }
